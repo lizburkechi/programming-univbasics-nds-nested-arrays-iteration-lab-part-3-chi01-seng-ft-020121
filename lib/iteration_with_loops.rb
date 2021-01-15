@@ -2,5 +2,15 @@
 # Combine all Strings present in the AoA into a single value and return it
 
 def join_nested_strings(src)
-
+join_nested_strings = []
+row_index = 0
+while row_index < src.count do
+  element_index = ""
+  while element_index < src[row_index].count do
+    p src[row_index][element_index]
+    element_index += 1
+  end
+  row_index += 1
+end
+join_nested_strings
 end

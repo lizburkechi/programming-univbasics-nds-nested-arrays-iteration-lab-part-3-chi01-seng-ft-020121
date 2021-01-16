@@ -11,7 +11,7 @@ while row_index < src.count do
       join_nested_strings << src[row_index][element_index]
 
     element_index += 1
-end    
+end
     row_index += 1
 end
 join_nested_strings

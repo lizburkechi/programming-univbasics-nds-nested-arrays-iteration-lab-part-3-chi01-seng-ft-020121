@@ -17,5 +17,5 @@ while row_index < src.count do
 end
     row_index += 1
 end
-  join_nested_strings.join("-") 
+  join_nested_strings.join("-")
 end

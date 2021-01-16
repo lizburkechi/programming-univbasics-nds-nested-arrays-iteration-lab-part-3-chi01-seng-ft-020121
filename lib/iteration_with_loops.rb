@@ -15,4 +15,3 @@ end
     row_index += 1
 end
   join_nested_strings
-

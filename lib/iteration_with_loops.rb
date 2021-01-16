@@ -10,7 +10,7 @@ while row_index < src.count do
     binding.pry
   while element_index < src[row_index].count do
     if src[row_index][element_index] == String
-      binding.pry
+      
       join_nested_strings << src[row_index][element_index]
     end
     element_index += 1
@@ -19,4 +19,4 @@ end
 end
   join_nested_strings
 end
-binding.pry
+
